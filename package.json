@@ -1,0 +1,21 @@
+{
+    "name": "destra-storage-bootstrap-onboard",
+    "version": "0.0.1",
+    "description": "Generate Peer ID and register with Destra Bootstrap Registry",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+      "register": "node register.js",
+      "peerIdOnly": "node generateOnlyPeerId.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "@libp2p/crypto": "^4.0.6",
+      "@libp2p/peer-id": "^4.0.10",
+      "dotenv": "^16.4.5",
+      "ethers": "^6.12.0"
+    }
+  }
+  

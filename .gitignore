@@ -1,0 +1,8 @@
+# Dependency directory
+node_modules/
+
+# Key storage directory
+keys/
+
+# env file
+.env
